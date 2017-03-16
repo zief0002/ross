@@ -6,7 +6,7 @@ pairings. The functions in this package construct the optimally spaced, balanced
 
 
 Installing the ross package
-======
+----
 
 The package can be installed from the command line in R:
 
