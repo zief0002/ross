@@ -1,0 +1,14 @@
+Package: Ross
+Type: Package
+Title: Ross Ordering
+Version: 1.0
+Date: 2011-11-27
+Author: Andrew Zieffler <zief002@umn.edu>, Stacy Karl <karlx028@umn.edu>, and Julio Cabrera <cabre031@umn.edu>
+Maintainer: Andrew Zieffler <zief002@umn.edu>
+Description: To control order effects in questionnaires containing paired 	comparisons, Ross (1934) described an optimal ordering of the 
+	pairings. The functions in this package construct the optimally 	spaced, balanced ordering of pairings. They can also create
+	subsets of the pairs for either a matrix-sampling design or a fully 	incomplete design.
+Depends: plyr
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
