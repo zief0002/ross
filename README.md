@@ -1,30 +1,30 @@
-# Ross: An R Package for Using Ross Ordering to Optimally Arrange Paired Comparisons
+# ross: An R Package for Using Ross Ordering to Optimally Arrange Paired Comparisons
 
 
 To control order effects in questionnaires containing paired comparisons, Ross (1934) described an optimal ordering of the 
 pairings. The functions in this package construct the optimally spaced, balanced ordering of pairings. They can also create subsets of the pairs for either a matrix-sampling design or a fully incomplete design.
 
 
-Installing the Ross Package
-----
+## Installing the ross Package
+
 
 The package can be installed from the command line in R:
 
 ```r
-devtools::install_github("zief0002/Ross") 
+devtools::install_github("zief0002/ross") 
 ```
 
 
-## Using the Ross Package
+## Using the `ross` Package
 
 
 After installing the package, load it using
 
 ```r
-library(Ross)
+library(ross)
 ```
 
-The Ross package includes three internal datasets: (1) `big.eight`, (2) `big.nine`, and (3) `top.twenty`. The first two include the original eight and nine teams from the Big Eight and Big Nine conferences, respectively. The third dataset includes the top 20 greatest music videos ever made according to MTV. We will use these datasets to illustrate some of the functionality in the Ross package. 
+The `ross` package includes three internal datasets: (1) `big.eight`, (2) `big.nine`, and (3) `top.twenty`. The first two include the original eight and nine teams from the Big Eight and Big Nine conferences, respectively. The third dataset includes the top 20 greatest music videos ever made according to MTV. We will use these datasets to illustrate some of the functionality in the Ross package. 
 
 You can of course import your own data for use in these functions. To see how the data should be formatted, we will examine the `big.nine` data.
 

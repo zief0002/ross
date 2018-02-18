@@ -1,26 +1,23 @@
-\name{Ross-package}
-\alias{Ross-package}
-\alias{Ross}
+\name{ross-package}
+\alias{ross-package}
+\alias{ross}
 \docType{package}
 \title{Ross Ordering}
 \description{
-To control order effects in questionnaires containing paired comparisons, Ross (1934) described an optimal ordering of the 
-pairings. The functions in this package construct the optimally spaced, balanced ordering of pairings. They can also create
+To control order effects in questionnaires containing paired comparisons, Ross (1934) described an optimal ordering of the pairings. The functions in this package construct the optimally spaced, balanced ordering of pairings. They can also create
 subsets of the pairs for either a matrix-sampling design or a fully incomplete design.
 }
 
 \details{
 \tabular{ll}{
-Package: \tab Ross\cr
+Package: \tab ross\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2011-11-27\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
-Please read the package vignette for information on the capabilities of the Ross package. 
-Feel free to contact me if there is a feature you would like to see added if it would complement the goals of the Ross 
-package.
+Please read the package vignette for information on the capabilities of the ross package. Feel free to contact me if there is a feature you would like to see added if it would complement the goals of the ross package.
 }
 
 \author{
